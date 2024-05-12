@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+}
+
+body > * {
+    box-sizing: border-box;
+    display: flex;
+}
+
+#calculator {
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+    margin: 50px;
+}
+
+#display {
+    font-family: "digital-7";
+    font-variant-numeric: tabular-nums;
+    background-color: lightgrey;
+    color: black;
+    height: 100px;
+    line-height: 100px;
+    padding-right: 8px;
+    text-align: right;
+    font-size: 56px;
+}
+
+button {
+    margin: 0;
+    height: 80px;
+    width: 25%;
+    font-size: 36px;
+}
+
+#clear {
+    width: 50%;
+}
