@@ -156,6 +156,11 @@ buttons.forEach(button => {
                 break;
             case 'float':
                 if (displayValue.at(-1) === '.') break;
+                if (displayValue === '0') {
+                    firstNum += button.textContent;
+                    displayValue += button.textContent;
+                    break;
+                }
             case '0':
                 if (displayValue === '0') break;
             default:
