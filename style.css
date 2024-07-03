@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'digital-7_monomono';
+    src: url('digital-7.mono-webfont.woff2') format('woff2'),
+         url('digital-7.mono-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     background-color: black;
     color: white;
@@ -19,7 +28,7 @@ body > * {
 }
 
 #display {
-    font-family: "digital-7";
+    font-family: "digital-7_monomono";
     font-variant-numeric: tabular-nums;
     background-color: lightgrey;
     color: black;
